@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerPrincipal {
+    display: flex;
+    height: 100%;
+}
+
+.menu {
+    width: 25%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+}
+
+.contenido {
+    background-color: rgb(243, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    min-height: 100vh;
+}
+
+.menu-item {
+    border: 2px solid orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.contenido-item {
+    text-align: center;
+    width: 400px;
+}
+
+
+
+
+/* ___________________________________________________________________________________ */
+
+
+.menu-principal {
+    border: 2px solid orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+}
+
+/* ___________________________________________________________________________________ */
+.menu-boton {
+    border: 2px solid orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+
+
+
+.btn-rosa-claro {
+    background-color: #dca2e1 !important;  /* Color rosado claro */
+    color: white !important;               /* Color del texto */
+    border: none !important;               /* Eliminar borde */
+  }
+  
+  .btn-rosa-claro:hover {
+    background-color: #9a1388 !important;  /* Rosado más intenso al pasar el ratón */
+  }
+  
+  
+
+
+  /* ___________________________________________________________________________________ */
+
+
+  .contact-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 18px;
+  }
+
+
+  .contact-data h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 2px;
+  }
+
+  .contact-data p {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 5px;
+    color: #828485;
+  }
+
+
+ /* ___________________________________________________________________________________ */
+
+
+ .contact-data p {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 5px;
+    color: #828485;
+  }
+
+
+ /* ___________________________________________________________________________________ */
+
+  .contact-status img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 7px;
+    
+  }
