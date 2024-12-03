@@ -1,121 +1,138 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.containerPrincipal {
-    display: flex;
-    height: 100%;
+.main {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  color: #1b1f21;
 }
 
-.menu {
-    width: 25%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid green;
+.usuario {
+  display: flex;
+  border-style: solid;
+  border-color: #e8ebe4;
+  border-width: thin;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.contenido {
-    background-color: rgb(243, 235, 235);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    min-height: 100vh;
+.actividadusuario {
+  width: 40%;
 }
 
-.menu-item {
-    border: 2px solid orange;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+.infousuario h1 {
+  font-size: 16px;
 }
 
-.contenido-item {
-    text-align: center;
-    width: 400px;
+.infousuario p {
+  font-size: 16px;
 }
 
-
-
-
-/* ___________________________________________________________________________________ */
-
-
-.menu-principal {
-    border: 2px solid orange;
-    display: flex;
-    justify-content: space-around;
-    padding: 4px;
+.infousuario {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
 }
 
-/* ___________________________________________________________________________________ */
-.menu-boton {
-    border: 2px solid orange;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 30px;
+.infousuario img {
+  width: 30%;
+  height: 80%;
+  border-radius: 50%;
 }
 
+.iconos {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #bec1bb;
+}
 
+#punico {
+  color: #bec1bb;
+  font-size: 12px;
+}
 
-.btn-rosa-claro {
-    background-color: #dca2e1 !important;  /* Color rosado claro */
-    color: white !important;               /* Color del texto */
-    border: none !important;               /* Eliminar borde */
-  }
-  
-  .btn-rosa-claro:hover {
-    background-color: #9a1388 !important;  /* Rosado más intenso al pasar el ratón */
-  }
-  
-  
+/* Contenedor principal */
+.main {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  color: #1b1f21;
+}
 
+/* Contenedor de botón de nuevo chat */
+.botonnuevochat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0; /* Aseguramos que haya espacio alrededor del botón */
+}
 
-  /* ___________________________________________________________________________________ */
+/* Estilo para el botón */
+button {
+  background-color: #a491d2;
+  color: #e8ebe4;
+  font-size: 10px; /* Ajusta el tamaño del texto */
+  padding: 10px 30px; /* Ajusta el padding para que sea proporcional */
+  width: auto; /* Se ajusta al contenido */
+  cursor: pointer;
+  display: inline-block; /* Asegura que el botón no se expanda más allá de su contenido */
+  transition: background-color 0.3s, color 0.3s; /* Agrega transiciones suaves */
+}
 
+/* Estilo al pasar el mouse sobre el botón */
+button:hover {
+  background-color: #cdc3e6;
+  color: white;
+}
 
-  .contact-data {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 18px;
-  }
+/* Enfoque al hacer clic en el botón */
+button:focus {
+  outline: none; /* Elimina el contorno al hacer clic */
+  background-color: #bec1bb;
+}
 
+/* Ajustes de estilo para los iconos dentro del contenedor */
+.iconos {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #bec1bb;
+}
 
-  .contact-data h3 {
-    font-size: 1.2rem;
-    margin: 0;
-    padding: 2px;
-  }
+.newchat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: thin;
+  border-color: #e8ebe4;
+  background-color: #e8ebe4;
+  width: 70%;
+}
 
-  .contact-data p {
-    font-size: 0.9rem;
-    margin: 0;
-    padding: 5px;
-    color: #828485;
-  }
+.newchat img {
+  width: 300px;
+}
 
+.titlenew {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 3%;
+}
 
- /* ___________________________________________________________________________________ */
+.titlenew h1 {
+  margin: auto;
+}
 
-
- .contact-data p {
-    font-size: 0.9rem;
-    margin: 0;
-    padding: 5px;
-    color: #828485;
-  }
-
-
- /* ___________________________________________________________________________________ */
-
-  .contact-status img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-top: 7px;
-    
-  }
+.titlenew p {
+  margin: auto;
+}
